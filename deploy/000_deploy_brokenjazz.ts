@@ -7,9 +7,11 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
 
   const {deployer} = await getNamedAccounts();
 
-  await deploy('TestToken', {
+  await deploy('BrokenJazz', {
     from: deployer,
     log: true,
+    args: ['BrokenJazz', 'BKJ']
   });
+
 };
 export default func;

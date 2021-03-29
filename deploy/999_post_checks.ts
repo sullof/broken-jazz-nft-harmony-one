@@ -5,9 +5,9 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
   const {deployments} = hre;
   const {log} = deployments;
 
-  const testToken = await deployments.get('TestToken');
-  log({testToken: testToken.address});
-  log(`testToken at ${testToken.address}`);
+  const brokenJazz = await deployments.get('BrokenJazz');
+  log({brokenJazz: brokenJazz.address});
+  log(`brokenJazz at ${brokenJazz.address}`);
 };
 export default func;
 func.runAtTheEnd = true;
