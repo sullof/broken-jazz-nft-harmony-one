@@ -1,5 +1,8 @@
 # Hardhat Starter Pack
 
+### CUSTOMIZED FOR BROKENJAZZ
+
+
 Hardhat Starter Pack is a Hardhat deployment stack for Harmony featuring:
 
 - `hardhat-deploy` for smart contract deployments
